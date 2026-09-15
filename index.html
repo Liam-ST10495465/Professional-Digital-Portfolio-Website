@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liam Marais - Aspiring Software Developer</title>
+  <meta name="description" content="Portfolio of Liam Marais, an aspiring software developer and IT student in Durban. Explore projects, skills, and career interests in software development.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav-bar" aria-label="Main navigation">
+      <a href="index.html" class="brand">liam-marais<span class="brand-ext">.dev</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="reflection.html">Reflection</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow-path">home<span class="sep">/</span>index.html</p>
+          <h1>Hi, I'm Liam Marais.</h1>
+          <p class="hero-intro">
+            I'm an aspiring software developer currently studying Information Technology in Durban. My focus so
+            far has been on building a solid foundation in Java for backend logic and HTML/CSS for structuring
+            and styling the web. I enjoy the process of breaking a problem down into small, testable pieces and
+            watching a working program come together from them. I'm still early in my journey, but I'm
+            committed to writing clean, well-organised code and learning the professional habits, such as version
+            control, documentation, and clear communication, that go along with good software development. My
+            goal is to grow this portfolio into a real record of that progress as I move toward an internship
+            and, eventually, a junior developer role.
+          </p>
+          <ul class="tag-list">
+            <li>Aspiring software developer</li>
+            <li>IT student</li>
+            <li>Durban, South Africa</li>
+            <li>Open to internships</li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="projects.html">View my projects</a>
+            <a class="btn" href="contact.html">Get in touch</a>
+          </div>
+        </div>
+
+        <div class="hero-photo-frame">
+          <img src="images/profile-placeholder.svg" alt="Placeholder headshot, replace with a professional photo of Liam Marais">
+        </div>
+      </div>
+    </section>
+
+    <section class="file-section">
+      <div class="container" style="display:contents;">
+        <span class="line-no">01</span>
+        <div class="section-body">
+          <h2>Where my interest lies</h2>
+          <p>
+            I'm particularly drawn to the logic side of software development, working through a problem in
+            Java until it clicks, as well as front-end work in HTML and CSS, where I get to see the result of
+            my work immediately in the browser. Together they give me a good mix of structured problem-solving
+            and visual, user-facing design.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="file-section">
+      <div class="container" style="display:contents;">
+        <span class="line-no">02</span>
+        <div class="section-body">
+          <h2>What I'm building toward</h2>
+          <p>
+            My near-term goal is to land an internship or junior developer role where I can apply what I've
+            learned in Java and web fundamentals to real projects. Longer term, I'd like to broaden into
+            full-stack development and take on more responsibility in designing systems, not just implementing
+            them.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span>&copy; <span id="year"></span> Liam Marais</span>
+      <span>
+        <a href="https://github.com/Liam-ST10495465">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/liam-marais-12440a437/">LinkedIn</a> ·
+        <a href="mailto:ST10495465@vcconnect.edu.za">Email</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Liam Marais</title>
+  <meta name="description" content="Get in touch with Liam Marais, an aspiring software developer based in Durban, via email, GitHub, or LinkedIn.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav-bar" aria-label="Main navigation">
+      <a href="index.html" class="brand">liam-marais<span class="brand-ext">.dev</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="reflection.html">Reflection</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container" style="padding-top:48px;">
+      <p class="eyebrow-path">contact<span class="sep">/</span>contact.html</p>
+      <h1>Get in touch</h1>
+      <p>
+        I'm happy to hear from recruiters, mentors, or fellow students. The quickest ways to reach me are
+        below.
+      </p>
+    </div>
+
+    <div class="container" style="padding-bottom:56px;">
+      <div class="contact-grid">
+        <div class="contact-card">
+          <span class="label">Email</span>
+          <a href="mailto:ST10495465@vcconnect.edu.za">ST10495465@vcconnect.edu.za</a>
+        </div>
+        <div class="contact-card">
+          <span class="label">GitHub</span>
+          <a href="https://github.com/Liam-ST10495465">github.com/Liam-ST10495465</a>
+        </div>
+        <div class="contact-card">
+          <span class="label">LinkedIn</span>
+          <a href="https://www.linkedin.com/in/liam-marais-12440a437/">linkedin.com/in/liam-marais</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span>&copy; <span id="year"></span> Liam Marais</span>
+      <span>
+        <a href="https://github.com/Liam-ST10495465">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/liam-marais-12440a437/">LinkedIn</a> ·
+        <a href="mailto:ST10495465@vcconnect.edu.za">Email</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

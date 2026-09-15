@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Liam Marais</title>
+  <meta name="description" content="Learn why Liam Marais chose Information Technology, his career goals, and the skills he's currently developing as an aspiring software developer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav-bar" aria-label="Main navigation">
+      <a href="index.html" class="brand">liam-marais<span class="brand-ext">.dev</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" aria-current="page">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="reflection.html">Reflection</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container" style="padding-top:48px;">
+      <p class="eyebrow-path">about<span class="sep">/</span>about.html</p>
+      <h1>About Me</h1>
+    </div>
+
+    <section class="file-section">
+      <div class="container" style="display:contents;">
+        <span class="line-no">01</span>
+        <div class="section-body">
+          <h2>Why Information Technology</h2>
+          <p>
+            I chose to study Information Technology because I've always been interested in how the software
+            we use every day is actually put together. The first time I wrote a small Java program that solved
+            a problem I'd set for myself, I was hooked on the process of thinking through a task logically, then
+            watching it run correctly on the screen. That mix of problem-solving and instant feedback is what
+            keeps me interested in the field.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="file-section">
+      <div class="container" style="display:contents;">
+        <span class="line-no">02</span>
+        <div class="section-body">
+          <h2>Career goals</h2>
+          <p>
+            In the next year or two, I'm aiming to secure an internship or entry-level developer role where I
+            can apply my Java and web development skills on real projects and learn from more experienced
+            developers. Longer term, I'd like to grow into a well-rounded software developer, comfortable
+            across both back-end logic and front-end interfaces, and eventually take on more design and
+            architecture responsibility within a development team.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="file-section">
+      <div class="container" style="display:contents;">
+        <span class="line-no">03</span>
+        <div class="section-body">
+          <h2>What interests me in the industry</h2>
+          <p>
+            I'm mainly interested in software development, with a particular pull toward backend logic and
+            problem-solving in Java, alongside building clean, usable interfaces with HTML and CSS. I like that
+            IT professional practice isn't just about writing code that works. It's also about writing code
+            that's readable, well-documented, and maintainable by other people on a team.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="file-section">
+      <div class="container" style="display:contents;">
+        <span class="line-no">04</span>
+        <div class="section-body">
+          <h2>Skills I'm currently developing</h2>
+          <div class="skills-grid">
+            <div class="skill-row"><span>Java</span><span>learning</span></div>
+            <div class="skill-row"><span>HTML</span><span>comfortable</span></div>
+            <div class="skill-row"><span>CSS</span><span>comfortable</span></div>
+            <div class="skill-row"><span>Git &amp; GitHub</span><span>learning</span></div>
+            <div class="skill-row"><span>Problem-solving &amp; logic</span><span>developing</span></div>
+            <div class="skill-row"><span>Professional communication</span><span>developing</span></div>
+          </div>
+          <p style="margin-top:16px;">
+            These reflect where I am right now in my studies, and I expect this list to grow as I take on more
+            modules and personal projects.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span>&copy; <span id="year"></span> Liam Marais</span>
+      <span>
+        <a href="https://github.com/Liam-ST10495465">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/liam-marais-12440a437/">LinkedIn</a> ·
+        <a href="mailto:ST10495465@vcconnect.edu.za">Email</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

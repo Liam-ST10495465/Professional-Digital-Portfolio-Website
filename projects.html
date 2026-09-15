@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Liam Marais</title>
+  <meta name="description" content="A selection of software development projects by Liam Marais, including academic assignments, with technologies used and links to source code.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav-bar" aria-label="Main navigation">
+      <a href="index.html" class="brand">liam-marais<span class="brand-ext">.dev</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html" aria-current="page">Projects</a></li>
+        <li><a href="reflection.html">Reflection</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container" style="padding-top:48px;">
+      <p class="eyebrow-path">projects<span class="sep">/</span>projects.html</p>
+      <h1>Projects</h1>
+      <p>
+        A selection of work from my studies. As I build out more projects in Java, HTML, and CSS, I'll keep
+        adding them here. For now, my main showcase is this portfolio site itself.
+      </p>
+    </div>
+
+    <div class="container" style="padding-bottom:16px;">
+
+      <article class="project-card">
+        <div class="shot">
+          <img src="images/project-library-system.svg" alt="Placeholder screenshot, replace with a real screenshot of the portfolio site">
+        </div>
+        <div class="project-body">
+          <p class="project-meta">Academic project</p>
+          <h2>Professional Digital Portfolio Website</h2>
+          <p>
+            This website. A five-page portfolio built from scratch with HTML and CSS, covering a home page,
+            about page, project showcase, professional reflection, and contact page. Built with a consistent
+            navigation system, responsive layout for mobile and desktop, and basic SEO practices such as
+            descriptive page titles and alt text.
+          </p>
+          <ul class="tech-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/Liam-ST10495465/Professional-Digital-Portfolio-Website">View source on GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="shot">
+          <img src="images/project-budget-tracker.svg" alt="Placeholder screenshot, replace with a real screenshot of a Java project">
+        </div>
+        <div class="project-body">
+          <p class="project-meta">Academic project</p>
+          <h2>Java Programming Exercises</h2>
+          <p>
+            A collection of Java programming exercises and small console-based programs completed as part of
+            my IT studies, covering core concepts such as variables, control structures, loops, and basic
+            object-oriented programming. More of these will be added to my GitHub as I complete new modules.
+          </p>
+          <ul class="tech-list">
+            <li>Java</li>
+            <li>Git</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/Liam-ST10495465">View on GitHub</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span>&copy; <span id="year"></span> Liam Marais</span>
+      <span>
+        <a href="https://github.com/Liam-ST10495465">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/liam-marais-12440a437/">LinkedIn</a> ·
+        <a href="mailto:ST10495465@vcconnect.edu.za">Email</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
